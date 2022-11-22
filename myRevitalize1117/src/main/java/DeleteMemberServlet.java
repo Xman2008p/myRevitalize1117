@@ -46,7 +46,7 @@ public class DeleteMemberServlet extends HttpServlet {
 		EntityManagerFactory factory=Persistence.createEntityManagerFactory("myRevitalize1117");
 		EntityManager manager=factory.createEntityManager();
 		manager.getTransaction().begin();
-		Member sx=manager.find(Member.class, Integer.parseInt(sid));
+		Member sx=manager.find(Member.class, sid);
 		 if(sx !=null) {        	
 	         manager.remove(sx);   
 			 manager.getTransaction().commit();

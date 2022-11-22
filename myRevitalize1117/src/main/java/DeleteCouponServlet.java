@@ -46,7 +46,7 @@ public class DeleteCouponServlet extends HttpServlet {
 		EntityManagerFactory factory=Persistence.createEntityManagerFactory("myRevitalize1117");
 		EntityManager manager=factory.createEntityManager();
 		manager.getTransaction().begin();
-		Coupon sx=manager.find(Coupon.class, Integer.parseInt(memid));
+		Coupon sx=manager.find(Coupon.class, memid);
 		 if(sx !=null) {        	
 	         manager.remove(sx);   
 			 manager.getTransaction().commit();
