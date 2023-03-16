@@ -40,7 +40,7 @@ CREATE TABLE `member` (
 
 LOCK TABLES `member` WRITE;
 /*!40000 ALTER TABLE `member` DISABLE KEYS */;
-INSERT INTO `member` VALUES ('101','Doris','1234','doris.wang@gmail.com','1001'),('102','Allen','1111','allen.chen@gamil.com','1002'),('103','Jacky','2222','jacky.lin@gmail.com','1003'),('104','Mary','3333','mary.lee@gmail.com','1004'),('105','John','4444','john.hsu@gmail.com','1005'),('106','Google','3456','goodbye@gmail.com','1006'),('201','Kevin','1234','Kevin.Wang@gmail.com','333388564678');
+INSERT INTO `member` VALUES ('101','Doris','1234','doris.wang@gmail.com','1001'),('102','Allen','1111','allen.chen@gamil.com','1002'),('103','Jacky','2222','jacky.lin@gmail.com','1003'),('104','Mary','3333','mary.lee@gmail.com','1004'),('105','John','4444','john.hsu@gmail.com','1005'),('106','Google','3456','goodbye@gmail.com','1006'),('99','99','','99',''),('A12345','卡哇虎力給','2222','xman2008p@gmail.com','023826015'),('F123456789','卡哇虎力給','1234','xman2008p@gmail.com','023826015');
 /*!40000 ALTER TABLE `member` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-22 15:05:10
+-- Dump completed on 2022-11-30 12:06:10

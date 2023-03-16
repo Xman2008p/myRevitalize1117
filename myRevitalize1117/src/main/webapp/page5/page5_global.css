@@ -1,0 +1,53 @@
+:root {
+  /* fonts */
+  --h61: Montserrat;
+  --font-poppins: Poppins;
+  --font-inter: Inter;
+   --h61: Montserrat;
+  --font-poppins: Poppins;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-3xs: 13px;
+  --h61-size: 14px;
+  --h5-size: 16px;
+  --font-size-sm: 20px;
+  --h4-size: 24px;
+  --font-size-lg: 36px;
+  --font-size-xl: 48px;
+  --font-size-2xl: 64px;
+
+  /* Colors */
+  --light-text-color: #fff;
+  --color-gray-100: #e4e4e4;
+  --color-gray-200: #e4e4e4;
+  --second-text-color: #737373;
+  --color-gray-300: #64748a;
+  --color-gray-400: #556d6f;
+  --text-color: #252b42;
+  --color-gray-600: #121111;
+  --color-gray-700: rgba(0, 0, 0, 0.4);
+  --color-gray-800: rgba(0, 0, 0, 0.8);
+  --color-black: #000;
+  --color-brown-100: #ee4444;
+  --primary-color: #23a6f0;
+
+  /* Gaps */
+  --gap-sm: 5px;
+  --gap-md: 10px;
+
+  /* Paddings */
+  --padding-sm: 10px;
+  --padding-md: 20px;
+
+  /* border radiuses */
+  --br-sm: 5px;
+  --br-md: 10px;
+  --br-lg: 20px;
+
+  /* Effects */
+  --accentued-drop-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  --shadow-xl: 0px 8px 10px -6px rgba(0, 0, 0, 0.1),
+  0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+}

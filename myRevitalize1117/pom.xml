@@ -33,7 +33,15 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       <groupId>jstl</groupId>
       <artifactId>jstl</artifactId>
       <version>1.2</version>
+    </dependency>  
+    <dependency>
+    	<groupId>com.google.code.gson</groupId>
+    	<artifactId>gson</artifactId>
+    	<version>2.10</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.jasonjson/jason -->
+    <!-- https://mvnrepository.com/artifact/org.json/json -->  
+    <!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->    
   </dependencies>
   <build>
     <finalName>myRevitalize1117</finalName>
